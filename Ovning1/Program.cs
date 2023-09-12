@@ -3,7 +3,8 @@
 namespace Ovning1
 {
     internal class Program
-    {
+    {   //Evaluate the use of "global" and type for variables/constants,
+        // some might be more suitable to be declared in etc. register class.
         public const int maxNumberOfEmployees = 100;
         public const int maxNumberLetters = 30;
         public static string[] EmployeeName = new string[maxNumberLetters];
